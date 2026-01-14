@@ -515,18 +515,25 @@ quilr deploy --flow "Client Onboarding"`}</code>
       </main>
 
       <footer className="footer">
-        <div>
-          <p className="brand-name">Quilr</p>
-          <p className="brand-sub">Precision workflows for creative teams.</p>
+        <div className="footer-layout">
+          <div className="footer-spacer" aria-hidden="true"></div>
+          <div className="footer-inner">
+            <div>
+              <p className="brand-name">Quilr</p>
+              <p className="brand-sub">Precision workflows for creative teams.</p>
+            </div>
+            <div className="footer-links">
+              <a href="#overview">Overview</a>
+              <a href="#guides">Guides</a>
+              <a href="#videos">Demo videos</a>
+              <a href="#reference">API</a>
+              <a href="#support">Support</a>
+            </div>
+            <p className="footer-note">
+              &copy; 2025 Quilr Inc. All rights reserved.
+            </p>
+          </div>
         </div>
-        <div className="footer-links">
-          <a href="#overview">Overview</a>
-          <a href="#guides">Guides</a>
-          <a href="#videos">Demo videos</a>
-          <a href="#reference">API</a>
-          <a href="#support">Support</a>
-        </div>
-        <p className="footer-note">&copy; 2025 Quilr Inc. All rights reserved.</p>
       </footer>
     </>
   )
